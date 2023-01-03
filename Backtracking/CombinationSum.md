@@ -1,3 +1,8 @@
+# Combination Sum
+https://www.interviewbit.com/problems/combination-sum/
+
+
+```
 void aux(int i, int sum, int k, vector<int> &A, vector<int> &temp, set<vector<int>> &ans) {
     if(i == A.size() || sum >= k){
         if(sum == k){
@@ -25,3 +30,4 @@ vector<vector<int> > Solution::combinationSum(vector<int> &A, int B) {
     }
     return res;
 }
+```
