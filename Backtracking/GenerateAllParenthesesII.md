@@ -1,3 +1,4 @@
+```
 void paranthesis(vector<string> &s,string temp,int a,int n){
   if(a>n)
     return;
@@ -19,3 +20,4 @@ vector<string> Solution::generateParenthesis(int A) {
     paranthesis(s,temp,A,A);
     return s;
 }
+```
