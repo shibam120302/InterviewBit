@@ -1,3 +1,5 @@
+
+```
 void make(vector<int>& A, int curr, int currSum, int sum, vector<int> temp, vector<vector<int> >& ans, map<vector<int>, bool>& m){
     if(currSum > sum){
         return;
@@ -42,3 +44,4 @@ vector<vector<int> > Solution::combinationSum(vector<int> &A, int B) {
     
     return ans;
 }
+```
