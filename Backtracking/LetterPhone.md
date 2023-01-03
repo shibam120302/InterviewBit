@@ -1,3 +1,5 @@
+
+```
 string checkMapping(int A){
     if(A == '0'){
         return "0";
@@ -63,3 +65,4 @@ vector<string> Solution::letterCombinations(string A) {
     return sol;
     
 }
+```
