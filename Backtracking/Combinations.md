@@ -1,3 +1,4 @@
+```
 void make(vector<int> temp, int curr, int n, int k, vector<vector<int> >& ans){
     if(temp.size() == k){
         ans.push_back(temp);
@@ -29,3 +30,4 @@ vector<vector<int> > Solution::combine(int n, int k) {
     
     return ans;
 }
+```
